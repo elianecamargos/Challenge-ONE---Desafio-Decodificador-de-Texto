@@ -1,0 +1,159 @@
+    .btn-decodificar{
+        height:Hug (67px);
+        Gap:8px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        width: 328px;
+        height: 67px;
+        text-align: center;
+        background: #c6cacf;
+        border-radius: 24px;
+        position: absolute;
+        top: 70px;
+        right: 150px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .btn-codificar{
+        box-sizing: border-box;
+        position: absolute;
+        top: 70px;
+        right: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        width: 328px;
+        height: 67px;
+        text-align: center;
+        background: #032e67;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .input-texto{
+        position: absolute;
+        width: 400px;
+        height: 644px;
+        left: 1000px;
+        top: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+    
+    .btn-copiar{
+        width: 288px;
+        height:19px;
+        Top:24px;
+        Left:24px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align:center;
+        font-family: Inter;
+        color: #0A3871;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        position: absolute;
+        width: 336px;
+        height: 67px;
+        left: 1032px;
+        top: 585px;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+.invisivel {
+        display: none;
+    }
+    .mensagens-erros li::before {
+        width: 96px;
+        height: 107px;
+        vertical-align:middle;
+        color: #b34242;
+    }
+    .mensagens-erros li {
+        font-size: 20px;
+        margin-left: 35px;
+        color: #b34242;
+    }
+    .mensagens-erros li {
+        font-size: 18px;
+        margin: 280px 0 0 ;
+        width: 228px;
+        left: 24px;
+        color: #b34242;
+    }
+
+    .desenvolvedor{
+        margin: 680px 0 0;
+    }
+
+    .botoes{
+        height: 18px;
+        width: 228px;
+        left: 24px;
+        top: 0px;
+        border-radius: nullpx;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        width:736px;
+        height: 97px;
+        left: 232px;
+        top:535px;
+        right: 750px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #495057;
+        opacity: 0.8;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+     .informacao{ 
+        position: absolute;
+        width:1136px;
+        left: 632px;
+        right:350px;
+        top: 135px;
+
+     }
+    
+    .texto{ 
+        display: block;
+        top: 200px;
+        margin: 70px 30px 40px;
+        padding: 7px 5px;
+        width: 40%;
+        height: 60px;
+        left: 432px;
+    }
+    
+    body{
+        background-color:#E5E5E5;
+    }
